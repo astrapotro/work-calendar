@@ -16,11 +16,11 @@ use App\Models\FestivityDate;
 *
 * @OA\Server(
 *      url=L5_SWAGGER_CONST_HOST,
-*      description="API Server"*
+*      description="API Server front"
 *)
 * @OA\Server(
 *      url=APP_URL,
-*      description="API Server"*
+*      description="API Server back"
 *)
 */
 
