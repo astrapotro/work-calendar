@@ -15,13 +15,13 @@ use App\Models\Municipality;
 |
 */
 
-Route::get('/', function () {
+Route::get('/workcalendar', function () {
     return view('home');
 });
-Route::get('/hasiera', function () {
+Route::get('/workcalendar/hasiera', function () {
     return view('home-eu');
 });
-Route::get('/festivos', function () {
+Route::get('/workcalendar/festivos', function () {
     return view('festivities', [
         'festivities' => Festivity::all()
     ]);
