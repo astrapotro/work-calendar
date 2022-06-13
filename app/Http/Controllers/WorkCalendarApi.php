@@ -14,7 +14,10 @@ use App\Models\FestivityDate;
 * version="1.0",
 * description="This API provides access to data about work calendar of the Autonomous Community of the Basque Country. The data comes from the datasets of the Open Data Euskadi working calendar. The API provides data from 2014  to the current year.")
 *
-* @OA\Server(url=APP_URL)
+* @OA\Server(
+*      url=L5_SWAGGER_CONST_HOST,
+*      description="Demo API Server"*
+*)
 */
 
 class WorkCalendarApi extends Controller
