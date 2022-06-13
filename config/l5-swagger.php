@@ -250,6 +250,7 @@ return [
          */
         'constants' => [
          'L5_SWAGGER_CONST_HOST' => env('L5_SWAGGER_CONST_HOST', 'http://my-default-host.com'),
+         'APP_URL' => env('APP_URL', 'http://my-default-host.com'),
          ],
     ],
 ];

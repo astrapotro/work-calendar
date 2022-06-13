@@ -8,7 +8,11 @@
     "servers": [
         {
             "url": "https://services.canary.euskadi.eus/workcalendar",
-            "description": "Demo API Server"
+            "description": "API Server"
+        },
+        {
+            "url": "http://workcalendar-opendata-canary.apps.ocp02nop.batera.euskadi.eus",
+            "description": "API Server"
         }
     ],
     "paths": {
