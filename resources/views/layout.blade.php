@@ -20,7 +20,7 @@
             <nav class="lang">
                 @if ($lang == 'es')
                     <span class="no-active">ES</span>
-                    <a href="/hasiera" class="active">EU</a>
+                    <a href="/workcalendar/hasiera" class="active">EU</a>
                 @elseif ($lang == 'eu')
                     <a href="/" class="active">ES</a>
                     <span class="no-active">EU</span>
