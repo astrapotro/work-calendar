@@ -26,13 +26,13 @@ if (!empty($proxy_schema)) {
    URL::forceScheme($proxy_schema);
 }*/
 
-Route::get('/workcalendar', function () {
+Route::get('/', function () {
     return view('home');
 });
-Route::get('/workcalendar/hasiera', function () {
+Route::get('/hasiera', function () {
     return view('home-eu');
 });
-Route::get('/workcalendar/festivos', function () {
+Route::get('/festivos', function () {
     return view('festivities', [
         'festivities' => Festivity::all()
     ]);
