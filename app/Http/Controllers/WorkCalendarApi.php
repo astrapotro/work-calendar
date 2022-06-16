@@ -16,12 +16,9 @@ use App\Models\FestivityDate;
 *
 * @OA\Server(
 *      url=L5_SWAGGER_CONST_HOST,
-*      description="API Server front"
+*      description="API front server"
 *)
-* @OA\Server(
-*      url=APP_URL,
-*      description="API Server back"
-*)
+*
 */
 
 class WorkCalendarApi extends Controller
